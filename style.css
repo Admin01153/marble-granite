@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -13,7 +7,7 @@
 
 }
 
-/*************header****************************************************************************************************************/
+/*************header************************************************************************************************************/
 .head{
 
     height:110px;
@@ -118,6 +112,7 @@ ul a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color:rgb(37, 28, 28);
+    
    
 }
 .text{
@@ -206,7 +201,7 @@ ul a:hover {
 }
 
 
-/**********************************************************footer*******************************************************************/
+/**********************************************************footer****************************************************************/
 .footer{
     width: 100%;
     height: 400px;
@@ -295,20 +290,18 @@ ul a:hover {
 }
 
 
-/****************************************The  Media********************************************************************************/
-
-
-
-@media ( max-width : px) {
+/**************************************** The  Media ( Max-Width : 1177 ) *********************************************/
+@media ( max-width :1177px) {
 
     /**********************Header************************************/
     .head{
 
-        height:180px;
-        width: 100%;
+     height:180px;
+     width: 100%;
+     position: sticky;
          
     }
-    display: non;
+
 
     /*******************Communication1*******************************/
 
@@ -337,45 +330,356 @@ ul a:hover {
     /********************Icon***************************************/
     #icon img {
         position: absolute;
-        top: 30px;
+        top: 45px;
     }
+    /****************************************nav**************************************************************************************/
+#nav{
+    height: 22px;
+   
+}
     /*********************Communication****************************/
     #Communication h2 {
-        border: solid 1px rgb(172, 10, 10)  ;
-         
+       
         position: absolute;
-        top: 40px;
-        right: 75%;
+        top: 30px;
+        right: 44%;
     }
     
     .tel{
         position: absolute;
-        top: 120px;
-        right: 73.7%;
+        top: 90px;
+        right: 42%;
     }
    
     
     
     .tel2{
         position: absolute;
-        top: 180px;
-        right: 73.7%;
+        top: 150px;
+        right:42%;
         }
     .whats{
         position: absolute;
-        top: 240px;
-        right:73.7%;
+        top: 210px;
+        right:42%;
     
         }
     /**********************The Links Of Pages *********************/
+    
     ul{
         position: absolute;
         right: 30%;
-        top: 100px;
+        top: 90px;
+    }
+    
     }
 
-    
-    
-    
-    
+    /**************************************** The  Media ( Max-Width : 980 ) *******************************************/
+    @media( max-width : 980px ){
+
+      /****************************header**********************************/
+      .head{
+
+        height:200px;
     }
+      /*****************icon****************************************/
+
+     #icon img {
+    position: absolute;
+    top: 60px;
+      }
+
+      /**************************The Links Of Pages ***********************/
+     
+      ul li {
+        display: inline-block;
+        padding-left: 15px;
+    }
+    ul{
+        position: absolute;
+        right: 31%;
+        top: 160px;
+    }
+    
+
+    /*******************Communication1*******************************/
+    #Communication1 p {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        
+    }
+
+    #Communication1 .a1 {
+    
+        position: relative;
+        position: absolute;
+        top: 115px;
+        left: 20px;
+    }
+
+
+    #Communication1 .a2 {
+        
+        position: absolute;
+        top: 70px;
+        left: 20px;
+    }
+        
+    
+
+    /*******************text Of Granite******************************/
+    #textOfGranite{
+        margin-right: 35%;
+    }
+    /**************text of marble**********************************/
+    #textOfMarble{
+        margin-right: 35%;
+    }
+
+
+    /****************publications template left (Granite And Marble ) ****************/
+    .section{
+        width: 45%;
+       float: left; 
+
+    }
+
+.contant1{
+    margin-top: 10px;
+    border: solid  rgb(18, 33, 48)  2px ;
+    width: 100%;
+    float: left;
+    margin-left: 4.5%;
+  /*  border-top: 0px;*/
+  /*  border-left: 0px;*/
+    overflow: auto;
+    padding-right: 0.5%;
+   
+}
+.contant1 img {
+    float: auto;
+    clear: both;
+    width: 100%;
+
+}
+
+.contant1 h2 {
+
+    font-family: 'Cairo', sans-serif;
+
+
+}
+
+
+/***********************publications template right (Granite And Marble ) ********/
+.section2{
+    width: 45%;
+    float: right;
+    margin-right: 20px;
+}
+
+
+.contant2{
+    margin-top: 10px;
+    border: solid  rgb(18, 33, 48)  2px ;
+    width: 100%;
+    float: left;
+    margin-right: 4.5%;
+  /*  border-top: 0px;*/
+  /*  border-left: 0px;*/
+    overflow: auto;
+    padding-left: 0.5%;
+}
+.contant2 img {
+    float: auto;
+    clear: both;
+    width: 100%;
+}
+.contant2 h2 {
+    font-family: 'Cairo', sans-serif;
+}
+}
+
+/**************************************** The  Media ( Max-Width : 748 ) *********************************************/
+@media ( max-width :748px) {
+    /*******************text Of Granite******************************/
+    #textOfGranite{
+        margin-right: 32%;
+    }
+    /**************text of marble**********************************/
+    #textOfMarble{
+        margin-right: 32%;
+    }
+
+     /*********************Communication****************************/
+     #Communication h2 {
+       
+        position: absolute;
+        right:39%;
+    }  
+    .tel{
+        position: absolute;  
+        right: 36%;
+    }  
+    .tel2{
+        position: absolute;
+        right:36%;
+        }
+    .whats{
+        position: absolute;
+        right:36%;
+        }
+
+}
+/**************************************** The  Media ( Max-Width : 690 ) *********************************************/
+@media ( max-width :690px) {
+    
+  /**************************The Links Of Pages ***********************/
+  ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+ul{
+    position: absolute;
+    right: 20%;
+    top: 160px;
+}
+
+
+}
+
+/**************************************** The  Media ( Max-Width : 550 ) *********************************************/
+@media ( max-width :550px) {
+  /****************publications template left (Granite And Marble ) ****************/    
+.contant1 h2 {
+   font-size: 17px;
+}
+
+/***********************publications template right (Granite And Marble ) ********/
+.contant2 h2 {
+    font-size: 17px;
+}
+/************ the links of pages ******************************/
+
+     
+  
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+ul{
+    position: absolute;
+    right: 21%;
+    top: 160px;
+}
+/********************Icon***************************************/
+#icon img {
+    width: 140px;
+    position: absolute;
+    top: 60px;
+}
+  /*******************text Of Granite******************************/
+  #textOfGranite{
+    margin-right: 26%;
+}
+/**************text of marble**********************************/
+#textOfMarble{
+    margin-right: 26%;
+}
+  /*********************Communication****************************/
+  #Communication h2 {
+       
+    position: absolute;
+    right:33%;
+}  
+.tel{
+    position: absolute;  
+    right: 30%;
+}  
+.tel2{
+    position: absolute;
+    right:30%;
+    }
+.whats{
+    position: absolute;
+    right:30%;
+    }
+
+/*************************Property*********************************/
+.Property{
+    font-size: 15px;
+}
+}
+
+/**************************************** The  Media ( Max-Width : 520 ) *********************************************/
+@media ( max-width :520px) {
+
+  /**************************The Links Of Pages ***********************/
+  
+
+
+ul li {
+    display: inline-block;
+    padding-left: 5px;
+}
+ul{
+    position: absolute;
+    right: 18%;
+    top: 160px;
+}
+}
+/**************************************** The  Media ( Max-Width : 470 ) *********************************************/
+@media ( max-width :470px) {
+
+    /**************************The Links Of Pages ***********************/
+  ul li {
+      display: inline-block;
+      padding-left: 5px;
+  }
+  ul{
+      position: absolute;
+      right: 12%;
+      top: 160px;
+  }
+   /*******************text Of Granite******************************/
+   #textOfGranite{
+    margin-right: 20%;
+}
+/**************text of marble**********************************/
+ #textOfMarble{
+    margin-right: 20%;
+}
+
+}
+/**************************************** The  Media ( Max-Width : 415 ) *********************************************/
+@media ( max-width :415px) {
+    .contant1 h2 {
+        font-size: 14px;
+     }
+     
+     /***********************publications template right (Granite And Marble ) ********/
+     .contant2 h2 {
+         font-size: 14px;
+     }
+     /*********************Communication****************************/
+  #Communication h2 {
+       
+    position: absolute;
+    right:28%;
+}  
+.tel{
+    position: absolute;  
+    right: 26%;
+}  
+.tel2{
+    position: absolute;
+    right:26%;
+    }
+.whats{
+    position: absolute;
+    right:26%;
+    }
+
+
+}
